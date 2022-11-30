@@ -1,0 +1,25 @@
+  0%|          | 0/253 [00:00<?, ?it/s]  0%|          | 0/253 [00:03<?, ?it/s]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/selenium/webdriver/common/service.py", line 76, in start
+    stdin=PIPE)
+  File "/usr/lib/python3.6/subprocess.py", line 729, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.6/subprocess.py", line 1364, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/driver/chromedriver': '/driver/chromedriver'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "crawl_parallel.py", line 477, in <module>
+    data = crawling(urls, options)
+  File "crawl_parallel.py", line 47, in crawling
+    driver = webdriver.Chrome(executable_path=executablepath, options=options)
+  File "/usr/local/lib/python3.6/dist-packages/selenium/webdriver/chrome/webdriver.py", line 73, in __init__
+    self.service.start()
+  File "/usr/local/lib/python3.6/dist-packages/selenium/webdriver/common/service.py", line 83, in start
+    os.path.basename(self.path), self.start_error_message)
+selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+
+
+ FINISHED [13:02:37]

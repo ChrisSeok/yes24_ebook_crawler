@@ -1,0 +1,49 @@
+['http://www.yes24.com/Product/Goods/98135753']
+[28/Nov/2022 14:01:33] INFO - 1
+1 by 10
+[28/Nov/2022 14:01:33] INFO - done
+-----------Start crawl_update-----------
+[28/Nov/2022 14:01:33] INFO - crawler setting
+[28/Nov/2022 14:01:33] INFO - http://www.yes24.com/Product/Goods/98135753
+[28/Nov/2022 14:01:33] INFO - ['http://www.yes24.com/Product/Goods/98135753']
+[28/Nov/2022 14:01:33] INFO - -------Start info Scraping-------
+######## url: http://www.yes24.com/Product/Goods/98135753
+
+ FINISHED [14:01:33]
+['http://www.yes24.com/Product/Goods/98135753']
+[28/Nov/2022 14:02:35] INFO - 1
+1 by 10
+[28/Nov/2022 14:02:35] INFO - done
+-----------Start crawl_update-----------
+[28/Nov/2022 14:02:35] INFO - crawler setting
+[28/Nov/2022 14:02:35] INFO - http://www.yes24.com/Product/Goods/98135753
+[28/Nov/2022 14:02:35] INFO - ['http://www.yes24.com/Product/Goods/98135753']
+[28/Nov/2022 14:02:35] INFO - -------Start info Scraping-------
+######## url: http://www.yes24.com/Product/Goods/98135753
+
+ FINISHED [14:02:36]
+['http://www.yes24.com/Product/Goods/98135753']
+[28/Nov/2022 14:02:58] INFO - 1
+1 by 10
+[28/Nov/2022 14:02:58] INFO - done
+-----------Start crawl_update-----------
+[28/Nov/2022 14:02:58] INFO - crawler setting
+[28/Nov/2022 14:02:58] INFO - http://www.yes24.com/Product/Goods/98135753
+[28/Nov/2022 14:02:58] INFO - ['http://www.yes24.com/Product/Goods/98135753']
+[28/Nov/2022 14:02:58] INFO - -------Start info Scraping-------
+######## url: http://www.yes24.com/Product/Goods/98135753
+success get url
+http://www.yes24.com/Product/Goods/98135753
+printed current url
+도서 오류
+2022.11.28 - 14:04:00
+http://www.yes24.com/Product/Goods/98135753
+printed current url
+success get html
+---Begin Info Scraping---
+data: Empty DataFrame
+Columns: [cover, title, subtitle, author, publisher, publisher_date, rating, review_num, best1, best2, salespoint, ISBN13, ISBN10, pages, size, category, awards, introduce, toc, into_the_book, review, series, url, type, adult]
+Index: []
+No crawled data
+
+ FINISHED [14:04:00]

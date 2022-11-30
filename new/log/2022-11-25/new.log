@@ -1,0 +1,49 @@
+FINISHED
+FINISHED
+----Start Newbook Crawling----
+ebook 신간도서 url 스크래핑
+last page num: 30
+http://www.yes24.com/Product/Goods/115616652
+---------split_urls start---------
+[25/Nov/2022 15:06:53] INFO - 2
+2 by 10
+[25/Nov/2022 15:06:53] INFO - done
+[25/Nov/2022 15:06:54] INFO - crawler setting
+[25/Nov/2022 15:06:54] INFO - http://www.yes24.com/Product/Goods/113737713,http://www.yes24.com/Product/Goods/97242415
+[25/Nov/2022 15:06:54] INFO - ['http://www.yes24.com/Product/Goods/113737713', 'http://www.yes24.com/Product/Goods/97242415']
+[25/Nov/2022 15:06:54] INFO - -------Start book Scraping-------
+######## url: http://www.yes24.com/Product/Goods/113737713
+37.228.129.24
+
+success get url
+alert page
+도서오류
+2022.11.25 - 15:07:25
+https://secimage.yes24.com/sysimage/contents/notice/firewall.html?ipsFilterNumber=manual
+printed current url
+blocked IP: 37.228.129.24
+######## url: http://www.yes24.com/Product/Goods/97242415
+185.220.101.70
+
+success get url
+alert page
+도서오류
+2022.11.25 - 15:08:09
+https://secimage.yes24.com/sysimage/contents/notice/firewall.html?ipsFilterNumber=manual
+printed current url
+blocked IP: 185.207.107.216
+crawled data: Empty DataFrame
+Columns: [cover, title, subtitle, author, publisher, publisher_date, rating, review_num, best1, best2, salespoint, ISBN13, ISBN10, pages, size, category, awards, introduce, toc, into_the_book, review, series, url, type, adult]
+Index: []
+No crawled data
+FINISHED
+FINISHED [2022-11-25]
+FINISHED [2022-11-25 - 15:10:26]
+FINISHED []
+FINISHED []
+FINISHED [15:12:24]
+----Start Newbook Crawling----
+ebook 신간도서 url 스크래핑
+last page num: 30
+http://www.yes24.com/Product/Goods/115616652
+FINISHED [15:14:21]

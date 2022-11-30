@@ -1,0 +1,17 @@
+세부 카테고리 총 개수: 283
+카테고리283 개 스크래핑
+1번째 카테고리
+last page num: 253
+http://www.yes24.com/24/Category/Display/017001046019?FetchSize=200, 253
+http://www.yes24.com/Product/Goods/96352141
+---------split_urls start---------
+[28/Nov/2022 13:02:37] INFO - 1
+1 by 10
+[28/Nov/2022 13:02:37] INFO - done
+[28/Nov/2022 13:02:37] INFO - crawler setting
+[28/Nov/2022 13:02:37] INFO - http://www.yes24.com/Product/Goods/113737713
+[28/Nov/2022 13:02:37] INFO - ['http://www.yes24.com/Product/Goods/113737713']
+[28/Nov/2022 13:02:37] INFO - -------Start book Scraping-------
+######## url: http://www.yes24.com/Product/Goods/113737713
+
+ FINISHED [13:02:37]
