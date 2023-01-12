@@ -15,7 +15,10 @@ def main():
     try:
         # db연결
         db = pymysql.connect(
-            host="192.168.10.100", db="book", user="book", password="book!@34", port=30000
+            host= #db server ip address here 
+            db="book", user="book", 
+            password="book!@34", 
+            port=30000
         )
         urls = []
         with db:
