@@ -8,7 +8,7 @@ class InsertData:
         super().__init__()
         self.dataset = df
         # self.df = pd.read_csv(path)
-        self.host = "192.168.10.100"
+        self.host = #db host ip here
         self.port = 30000
         self.database = "book"
         self.username = "book"
