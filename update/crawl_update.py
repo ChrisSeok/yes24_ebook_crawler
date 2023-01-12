@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 #yes24 DB 필드 업데이트. 
+# executable path, db conncection info > should be made more reusable
 from lib2to3.pgen2.pgen import DFAState
 from bs4 import BeautifulSoup
 from datetime import datetime
@@ -48,7 +49,7 @@ def crawlUpdate(urls, options): #urls: 리스트 #url from yes24 db
             if url[-1]=='\r':
                 new_url = url[:-1]
                 print('stripped \r :',new_url)
-                host = "192.168.10.100"
+                host = #db server ip address here
                 port = 30000
                 database = "book"
                 username = "book"
