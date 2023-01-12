@@ -8,11 +8,7 @@ class InsertData:
         super().__init__()
         self.dataset = df
         # self.df = pd.read_csv(path)
-        self.host = "192.168.10.100"
-        self.port = 30000
-        self.database = "book"
-        self.username = "book"
-        self.password = "book!@34"
+        #db info here
 
     def preprocess_data(self):
         dataset = self.dataset
