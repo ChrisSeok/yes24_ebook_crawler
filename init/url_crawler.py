@@ -41,7 +41,7 @@ class UrlCrawler:
     def __init__(self):
         # self.executable_path = "/home/jupyter-coseok/web-scraping/web-scraper/yes24-ebook/driver/chromedriver"
         self.executable_path = "/driver/chromedriver"
-        self.host = "192.168.10.100"
+        self.host = #db host ip
         self.port = 30000
         self.database = "book"
         self.username = "book"
