@@ -17,7 +17,6 @@ options.add_argument("--ignore-certificate-errors")
 options.add_argument("disable-infobars")
 options.add_argument("--incognito")
 options.add_argument("--proxy-server=socks5://%s" % tor_proxy)
-# executablepath = "/home/jupyter-coseok/web-scraping/web-scraper/yes24-ebook/driver/chromedriver"
 executablepath = "/driver/chromedriver"
 
 driver = webdriver.Chrome(executable_path=executablepath, options=options)
